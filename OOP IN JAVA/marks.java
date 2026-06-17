@@ -1,14 +1,12 @@
 public class marks {
     // New Use Of Constructor that every object have their own properties as every Student have their own
     // subjects marks
-
-
     public static class StudentData {
         String Name ;
         int Roll;
         int[] marks;
-        StudentData(int[] m){
-        marks = m;
+        StudentData(int[] marks){
+        this.marks = marks;
 
         }
     }
@@ -18,7 +16,7 @@ public class marks {
         //    we also can pass array into constructor
         StudentData S1 = new StudentData(Arr);
         // it makes a shalow copy of Array
-                S1.marks[0]=9;
+         S1.marks[0]=9;
         System.out.println(Arr[0]);
 
 

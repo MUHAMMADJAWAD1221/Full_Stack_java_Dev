@@ -9,9 +9,10 @@ public class Constructor {
         Car () {
 
         }
-        Car(int S ,String N){
 // for order matters if user don't enter titles as constructor wants and for avoiding Exceptions or Error
 //also constructoe will be uses according to the order
+        Car(int S ,String N){
+
             Sets = S;
             Name = N;
 

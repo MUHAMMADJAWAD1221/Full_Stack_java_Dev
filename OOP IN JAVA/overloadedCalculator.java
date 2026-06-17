@@ -1,4 +1,27 @@
-package PACKAGE_NAME;
-
 public class overloadedCalculator {
+  int add(int a, int b){
+
+   return a+b;
+  }
+   double add(double a, double b){
+
+      return a+b;
+
+   }
+  int   add(int a, int b, int c){
+      return a+b+c;
+
+  }
+
+    static void main(String[] args) {
+        overloadedCalculator c = new overloadedCalculator();
+
+
+   overloadedCalculator C = new overloadedCalculator();
+
+        System.out.println(C.add(2,3));
+        System.out.println(C.add(2.5,3.5));
+        System.out.println(C.add(2,3,4));
+
+    }
 }
