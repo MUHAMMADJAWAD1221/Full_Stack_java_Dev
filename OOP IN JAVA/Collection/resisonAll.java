@@ -1,3 +1,5 @@
+package Collection;
+
 import java.util.ArrayList;
 import java.util.Collections;
 public class resisonAll {
@@ -33,7 +35,9 @@ public class resisonAll {
                 .filter(n-> n%2==0)
                 .forEach(n-> System.out.println(n));
 
+
     }
+
 
 
 }
