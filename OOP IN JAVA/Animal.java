@@ -19,8 +19,6 @@ void hh(){
 }
 
     }
-
-
 public class Animal {
     static void main(String[] args) {
         Dog d1 = new Dog();

@@ -10,11 +10,6 @@ class S3 {
         System.out.println("Roll number is :  "+S1.GetRoll());
         StringBuilder sb = new StringBuilder(sc.nextLine());
         System.out.println(sb);
-
-
-
-
-
-    }
+}
 
 }
